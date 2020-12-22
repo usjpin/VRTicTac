@@ -88,7 +88,7 @@ public class GameController : MonoBehaviour
         if (gameOver) return;
         if (hardDifficulty)
         {
-            //buttonList[computer.GetMinimaxMove(buttonList)].GetComponentInParent<ButtonComponent>().SetSpace();
+            buttonList[computer.GetMinimaxMove(buttonList)].GetComponentInParent<ButtonComponent>().SetSpace();
         }
         else
         {
